@@ -2,13 +2,10 @@ import {
     Body,
     Controller,
     Get,
-    Inject,
     NotFoundException,
     Param,
     ParseIntPipe,
-    Post,
-    Logger,
-    LoggerService
+    Post
 } from "@nestjs/common";
 import { CatsService } from "./cats.service";
 import { CatCreationDTO } from "./cat.dto";
